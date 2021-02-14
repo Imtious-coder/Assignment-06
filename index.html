@@ -7,13 +7,37 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+    <!--CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- extra part1 start-->
+    <nav style="background-color: #FFFBF0;">
+        <section class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <p style="font-size: 28px; font-weight: bolder; margin-top: 10px;">Assignment-06</p>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active menu" aria-current="page" href="#">Home</a>
+                            <a class="nav-link menu" href="#products">Product</a>
+                            <a class="nav-link menu" href="#about-us">About us</a>
+                            <a class="nav-link menu" href="#contact-us" tabindex="-1" aria-disabled="true">Contact us</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </nav>
+    <!-- extra part1 end here -->
     <div class="container">
         <h4 class="mt-2 text-center">Search Image for create slider</h4>
         <div class="form-inline mt-3 d-flex justify-content-center">
@@ -28,11 +52,11 @@
                 <div class="input-group col-md-3 mb-2 mb-md-0">
                     <input class="form-control" id="duration" placeholder="Slider change duration">
                 </div>
-                <!-- bonus area -->
+                <!-- extra part2 start-->
                 <div class="no-of-selected-pic-area">
                     <h5>Selected : <span id="total-selected" style="color: red;">0</span> </h5>
                 </div>
-                <!-- ./end bonus area -->
+                <!--extra part2 end here-->
                 <button id="create-slider" class="btn btn-primary px-5">Create slider</button>
 
             </div>
@@ -51,7 +75,7 @@
             </div>
         </div>
     </div>
-    <!-- Optional JavaScript -->
+    <!--JavaScript -->
     <script src="./app.js"></script>
 </body>
 
