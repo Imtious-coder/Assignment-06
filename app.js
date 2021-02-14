@@ -76,7 +76,7 @@ const createSlider = () => {
     sliderContainer.appendChild(prevNext)
     document.querySelector('.main').style.display = 'block';
 
-    // Image sliding duration time
+    // Image sliding duration time..
     const duration = document.getElementById('duration').value || 1000;
 
     sliders.forEach(slide => {
@@ -150,4 +150,4 @@ searchBtn.addEventListener('click', () => {
 sliderBtn.addEventListener('click', function() {
         createSlider()
     })
-    // end...
+    // end....
