@@ -5,13 +5,13 @@ const searchBtn = document.getElementById('search-btn');
 const sliderBtn = document.getElementById('create-slider');
 const sliderContainer = document.getElementById('sliders');
 const totalSelected = document.getElementById('total-selected');
-// selected images here
+// selected images here...
 let sliders = [];
 
-// api key here
+// api key here...
 const KEY = '15674931-a9d714b6e9d654524df198e00&q';
 
-// show images 
+// show images section
 const showImages = (images) => {
     sliders = [];
     totalSelected.innerText = '0';
